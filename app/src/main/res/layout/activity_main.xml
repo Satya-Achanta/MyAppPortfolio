@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:text="My Nanodegree Apps!"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/spotify_streamer_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:onClick="launchSpotifyStreamerApp"
+        android:text="Spotify Streamer"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/scores_app_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:onClick="launchScoresApp"
+        android:text="Scores App"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/library_app_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:onClick="launchLibraryApp"
+        android:text="Library App"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/build_it_bigger_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:onClick="launchBuildItBiggerApp"
+        android:text="Build It Bigger"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/xyz_reader_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:onClick="launchXYZReaderApp"
+        android:text="XYZ Reader"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/capstone_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="#C529A7"
+        android:onClick="launchCapstoneApp"
+        android:text="Capstone: My Own App" />
+
+</LinearLayout>
